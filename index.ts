@@ -1,8 +1,8 @@
 import { Client, Message } from 'discord.js';
 import * as config from './config.json';
-import MineStat from 'minestat-node';
+import MineStat from 'minestat';
 
-const client = new Client({});
+const client = new Client();
 
 client.on('ready', () => {
   console.log(`Bot is ready as ${client.user?.tag ?? 'unknown'}`);
