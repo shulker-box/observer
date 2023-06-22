@@ -1,0 +1,33 @@
+{
+  "name": "observer",
+  "version": "1.0.0",
+  "description": "Observe your minecraft server",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shulker-box/observer.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord-bot",
+    "minecraft",
+    "server",
+    "minecraft-server"
+  ],
+  "author": "https://github.com/shulker-box",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shulker-box/observer/issues"
+  },
+  "homepage": "https://github.com/shulker-box/observer#readme",
+  "dependencies": {
+    "discord-api-types": "^0.37.46",
+    "discord.js": "^14.11.0",
+    "minestat": "^1.0.5",
+    "ts-node": "^10.9.1"
+  }
+}
